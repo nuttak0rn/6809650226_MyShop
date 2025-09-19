@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 body {
     background-color: white;
+    margin: 0px;
+    padding: 0px;
 }
-.section-1 {
+#section-1 {
     background-image: url(resources/bg1.avif);
     background-repeat: no-repeat;
     height: 1000px;
@@ -12,8 +14,9 @@ body {
     border: 1px solid white;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-collapse: collapse;
 }
 .home {
     font-family: "Raleway";
@@ -29,6 +32,10 @@ body {
     color: white;
     text-align: center;
     padding-right: 325px;
+}
+.top-cell {
+    border: 1px solid white;
+    padding: 10px 15px;
 }
 #tea1 {
     padding-top: 100px;
@@ -49,7 +56,7 @@ body {
     width: 500px;
     height: 300px;
 }
-.section-2 {
+#section-2 {
     background-image: url(resources/bg2.png);
     background-repeat: no-repeat;
     height: 530px;
@@ -62,6 +69,12 @@ body {
     text-align: center;
     font-weight: lighter;
 }
+#typestea {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .types {
     padding-left: 10px;
     padding-right: 10px;
@@ -69,21 +82,21 @@ body {
 
 }
 #table2 {
-    border: 1px solid white;
+    border: 0px solid white;
 }
 .tea1 {
     font-family: "Raleway";
     font-size: 20px;
     color: black;
-    text-align: center;
+    margin-top: 10px;
 }
 .bath {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: black;
-    text-align: center;
+    margin-top: 5px;
 }
-.section-3 {
+#section-3 {
     background-image: url(resources/bg3.avif);
     background-repeat: no-repeat;
     height: 300px;
