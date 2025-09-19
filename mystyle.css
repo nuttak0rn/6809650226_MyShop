@@ -5,6 +5,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+/*index*/
+
 #section-1 {
     background-image: url(resources/bg1.avif);
     background-repeat: no-repeat;
@@ -25,13 +28,17 @@ body {
     color: white;
     text-align: center;
 }
-#top {
+.center-cell {
+  vertical-align: middle;
+  text-align: center;
+}
+#topindex {
     font-family: "Raleway";
     font-weight: lighter;
     font-size: 20px;
     color: white;
     text-align: center;
-    padding-right: 325px;
+    padding-right: 0px;
 }
 .top-cell {
     border: 1px solid white;
@@ -79,7 +86,6 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 30px;
-
 }
 #table2 {
     border: 0px solid white;
@@ -135,11 +141,71 @@ body {
     color: black;
     text-align: center;
 }
-#footer {
-    background-color: #00000087;
+.gohome {
     font-family: "Raleway";
+    font-weight: lighter;
     font-size: 30px;
+    color: black;
+}
+footer {
+    background-color: #00000087;
+    padding: 5px;
     color: white;
+    font-size: 30px;
+    font-family: "Raleway";
+    text-align: center;
+    font-weight: lighter;
+}
+
+/*my1stcategory*/
+
+#my1stcategory {
+    background-image: url(resources/bg1.avif);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top1stcat {
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#headnew1st {
+    font-family: "Edu NSW ACT Cursive";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+#accessories {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.asces1 {
+    font-family: "Edu NSW ACT Cursive";
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.bath1stcat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+}
+footer {
+    background-color: #00000087;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: "Raleway";
     text-align: center;
     font-weight: lighter;
 }
