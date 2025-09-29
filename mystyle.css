@@ -107,10 +107,6 @@ body {
     background-repeat: no-repeat;
     height: 300px;
 }
-#section-4 {
-    background-color: white;
-    height: 2230px;
-}
 #tea4 {
     padding-top: 115px;
     font-family: "Lora";
@@ -203,71 +199,6 @@ footer {
     font-size: 20px;
     color: white;
     margin-top: 5px;
-}
-footer {
-    background-color: #00000087;
-    padding: 5px;
-    color: white;
-    font-size: 30px;
-    font-family: "Raleway";
-    text-align: center;
-    font-weight: lighter;
-}
-
-/*my2ndcategory*/
-
-#my2ndcategory {
-    background-image: url(resources/bg4.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#headone2nd {
-    font-family: "Edu NSW ACT Cursive";
-    padding-top: 200px;
-    padding-bottom: 200px;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    font-weight: lighter;
-}
-#headtwo2nd {
-    font-family: "Edu NSW ACT Cursive";
-    padding-top: 100px;
-    padding-bottom: 40px;
-    font-size: 40px;
-    color: black;
-    text-align: center;
-    font-weight: lighter;
-}
-#ourstory {
-    background-color: white;
-}
-#story {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.story1 {
-    padding-left: 180px;
-    font-family: "Raleway";
-    font-weight: lighter;
-    font-size: 15px;
-    color: black;
-    text-align: left;
-}
-.story2 {
-    padding-right: 180px;
-    font-family: "Raleway";
-    font-weight: lighter;
-    font-size: 15px;
-    color: black;
-    text-align: left;
-}
-#tablestory {
-    border-collapse: collapse;
 }
 footer {
     background-color: #00000087;
